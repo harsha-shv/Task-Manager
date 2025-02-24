@@ -19,9 +19,8 @@ Before running the application, ensure you have the following installed:
 
 1. [XAMPP](https://www.apachefriends.org/download.html) (for Apache & MySQL)
 2. [Composer](https://getcomposer.org/) (for Laravel dependencies)
-3. [Node.js](https://nodejs.org/) (for frontend dependencies, if needed)
-4. Laravel (Installed via Composer)
-5. Update the database details in the `.env` file.
+3. Laravel (Installed via Composer)
+4. Update the database details in the `.env` file.
 
 ---
 
