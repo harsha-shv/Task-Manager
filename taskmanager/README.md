@@ -26,25 +26,24 @@ Before running the application, ensure you have the following installed:
 ---
 
 ## 📌 Project Structure:
-📂 app/
-├── Http/Controllers/
-│   ├── ProjectController.php   # Handles project creation & retrieval
-│   ├── TaskController.php      # Handles CRUD operations for tasks
-│
-├── Models/
-│   ├── Project.php             # Defines project model
-│   ├── Task.php                # Defines task model
-│
-📂 database/
-├── migrations/                 # Table structures for projects and tasks
-├── seeders/                    # Adds default test data
-│
-📂 routes/
-├── api.php                     # Defines API endpoints for tasks & projects
-│
-📂 resources/views/
-├── welcome.blade.php           # Frontend UI (Dropdown, task list, JavaScript interactivity)
-│
-📂 public/
-├── css/                        # Frontend styles
-├── js/                         # Frontend scripts
+app/Http/Controllers/
+  ProjectController.php   # Handles project creation & retrieval
+  TaskController.php      # Handles CRUD operations for tasks
+
+Models/
+  Project.php             # Defines project model
+  Task.php                # Defines task model
+
+database/
+  migrations/                 # Table structures for projects and tasks
+  seeders/                    # Adds default test data
+
+routes/
+  api.php                     # Defines API endpoints for tasks & projects
+
+resources/views/
+  welcome.blade.php           # Frontend UI (Dropdown, task list, JavaScript interactivity)
+
+public/
+  css/                        # Frontend styles
+  js/                         # Frontend scripts
